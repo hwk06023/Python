@@ -12,3 +12,10 @@ Python은 1991년에 발표된 Interpreter 방식의 프로그래밍 언어로 C
 <code>변수명 = 변수에 저장할 값(데이터)</code> <sub>여기서 '='는 대입 연산자 라고 합니다. </sub> <br/>
   
 ## 출력(print)
+<code>print('Hello World!')</code> <sub>결과 : Hello World! </sub> <br/><br/>
+<code>a = 20</code> <br/>
+<code>print(a)</code> <sub>결과 : 20 </sub> <br/>
+
+## 입력
+<code>a = input()</code> <br/>
+<code>
