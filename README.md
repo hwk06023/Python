@@ -16,6 +16,32 @@ Python은 1991년에 발표된 Interpreter 방식의 프로그래밍 언어로 C
 <code>a = 20</code> <br/>
 <code>print(a)</code> <sub>결과 : 20 </sub> <br/>
 
-## 입력
-<code>a = input()</code> <br/>
-<code>
+값을 출력하는데 사용합니다. <br/><br/>
+
+## 입력(input)
+<code>a = input()</code> <sub>입력 예시 : Hello! </sub> <br/><br/>
+<code>print(a)</code> <sub>결과: Hello! </sub> <br/>
+
+값을 입력하는데 사용합니다. <br/><br/>
+
+<code>a = input().split()</code> <sub>입력 예시 : 10 20 30 </sub> <br/><br/>
+<code>print(a)</code> <sub>결과: ['10', '20', '30'] </sub> <br/>
+
+.split() 을 이용하면 띄어쓰기를 기준으로 각각을 원소로 하는 리스트가 만들어집니다. <br/>
+리스트에 대한 내용은 아래에서 다루겠습니다. <br/><br/>
+
+<code>a, b = input().split()</code> <sub>입력 예시 : 10 20 </sub> <br/><br/>
+<code>print(a)</code> <sub>결과: 10  </sub> <br/>
+<code>print(b)</code> <sub>결과: 20  </sub> <br/>
+<code>print(a + b)</code> <sub>결과: 1020  </sub> <br/>
+
+여기서 주의해야하는게 우리가 숫자를 정수로 생각하고 입력하더라도 우리가 입력한 값은 문자열입니다. <br/>
+따라서 이와 같은 결과가 나오는 것입니다. 착각하여 고생하지 맙시다 :) <br/><br/>
+
+만약 정수로 입력을 받고 싶다면, map을 사용할 수 있습니다.
+<code>a, b = map(int, input().split())</code> <sub>입력 예시 : 10 20 </sub> <br/><br/>
+<code>print(a)</code> <sub>결과: 10  </sub> <br/>
+<code>print(b)</code> <sub>결과: 20  </sub> <br/>
+<code>print(a + b)</code> <sub>결과: 30  </sub> <br/>
+
+map에 대한 내용 역시 리스트를 다룰 때에 다시 다루겠습니다.
