@@ -45,3 +45,12 @@ Python은 1991년에 발표된 Interpreter 방식의 프로그래밍 언어로 C
 <code>print(a + b)</code> <sub>결과: 30  </sub> <br/>
 
 map에 대한 내용 역시 리스트를 다룰 때에 다시 다루겠습니다.
+
+## 반복
+
+### for
+<code>for i in range(0, 10):  print(i)</code>
+
+range 
+
+enumerate
